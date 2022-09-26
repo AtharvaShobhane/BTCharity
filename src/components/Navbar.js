@@ -16,7 +16,7 @@ export default function Navbar() {
     <div className="collapse navbar-collapse navbar-home" id="navbarNavDropdown">
       <ul className="navbar-nav ">
       <li>
-        <button className="explore">Home<span className="icon-right after"></span></button>
+        <button className="explore" onClick={() => navigate("/") }>Home<span className="icon-right after"></span></button>
         </li>
         <li><a href='#intro-example'>
         <button className="explore">About Us<span className="icon-right after"></span></button></a>
