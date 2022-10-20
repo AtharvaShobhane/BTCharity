@@ -39,8 +39,8 @@ export default function Slider2() {
         alt='...'
         style={{height:600}}
       >
-        <h5>Third slide label</h5>
-        <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+        <h5 style={{color:'black'}}>Third slide label</h5>
+        <p  style={{color:'black'}}>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
       </MDBCarouselItem>
     </MDBCarousel>
   )

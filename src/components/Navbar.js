@@ -19,7 +19,7 @@ export default function Navbar() {
         <button className="explore" onClick={() => navigate("/") }>Home<span className="icon-right after"></span></button>
         </li>
         <li><a href='#intro-example'>
-        <button className="explore">About Us<span className="icon-right after"></span></button></a>
+        <button className="explore" onClick={() => navigate("/") }>About Us<span className="icon-right after"></span></button></a>
         </li>
         <li>
         <button className="explore">Join<span className="icon-right after"></span></button>
